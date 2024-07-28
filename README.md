@@ -2,19 +2,19 @@ The code for the solution has been pushed for the web app named MyLocations.
 
 It is a basic app for viewing location images. We can also search for new locations online using Foursquare api and Flickr api.
 
-image
+![alt text](https://github.com/Tech-Tz/MyLocations/blob/main/Docs%20images/1.png)
 
 You can search and filter for existing location images using a keyword in the database as shown below.
 
-image
+![alt text](https://github.com/Tech-Tz/MyLocations/blob/main/Docs%20images/2.png)
 
 If a location does not exists in the db, you can search for that location online as shown below.
 
-image
+![alt text](https://github.com/Tech-Tz/MyLocations/blob/main/Docs%20images/3.png)
 
 Once you are redirected to the search page, you can enter a keyword for that location, the region and the category.
 
-image
+![alt text](https://github.com/Tech-Tz/MyLocations/blob/main/Docs%20images/4.png)
 
 A location will contain up to N images. The images will be added only if they do not already exist in the db. An image may also be associated with M locations. Therefore, there is many-to-many relationship with Locations and Images.
 
@@ -29,7 +29,8 @@ Kindly follow steps below to run the app:
 
 Modify db connection string in src/MyLocations.Web/appSettings.json
 Insert your foursquare api key and flickr api key and api secret in the in src/DBCreationScript.sql
-image
+
+![alt text](https://github.com/Tech-Tz/MyLocations/blob/main/Docs%20images/5.png)
 
 We preferred implementing code for calling the foursquare and flickr apis directly in the solution instead of using nuget packages as these packages are outdated. There is also a security risk of passing api keys to the methods provided by the nuget packages.
 
