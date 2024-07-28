@@ -36,11 +36,11 @@ We preferred implementing code for calling the foursquare and flickr apis direct
 
 Future improvements:
 
-Asp.net core mvc framework was intially chosen. We can implement the back end using asp.net core web api and the front end with a JS framework for example Angular.
-Add unit tests
-Fine tune the searching of locations/images with foursquare and flickr api by further experimentation on the number and type of parameters passed to the api endpoints.
-Use information obtained from Places Api endpoints in foursquare to input in Personalisation Api endpoints in foursquare for customizing user experience.
-Instead of displaying the individual images in the page, we can display the locations. When we click on a location, we can navigate through the list of images of that location.
-Passing a list of categories instead of only one category when searching for a location.
-Real time search in javascript for searching locations in DB
-Implement authentication and user defined list of locations
+- Asp.net core mvc framework was intially chosen. We can implement the back end using asp.net core web api and the front end with a JS framework for example Angular.
+- Add unit tests
+- Fine tune the searching of locations/images with foursquare and flickr api by further experimentation on the number and type of parameters passed to the api endpoints.
+- Use information obtained from Places Api endpoints in foursquare to input in Personalisation Api endpoints in foursquare for customizing user experience.
+- Instead of displaying the individual images in the page, we can display the locations. When we click on a location, we can navigate through the list of images of that location.
+- Passing a list of categories instead of only one category when searching for a location.
+- Real time search in javascript for searching locations in DB
+- Implement authentication and user defined list of locations
